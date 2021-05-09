@@ -19,7 +19,7 @@ ambos datos ingresados deben ser correctos, si es asi a traves del header
 me redirige a profile.php*/
 
 if ($userLogin==$bbdd["username"] && $passLogin==$bbdd["password"]) {
-  header("Location:profile.php");
+  header("Location:https://deandreafranco.github.io/trabajofinalpotrerofranco/");
 } else {
   echo "Datos ingresados incorrectamente";
 }
